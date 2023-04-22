@@ -45,7 +45,7 @@ void loop() {
  
   Serial.print("Reading: ");
   Serial.print(scale.get_units(), 3);
-  Serial.print(" kgs"); //Change this to grams and re-adjust the calibration factor if you follow SI units like a sane person
+  Serial.print(" kgs"); //This can change this to grams and re-adjust the calibration factor if as another SI units
   Serial.print(" calibration_factor: ");
   Serial.print(calibration_factor);
   Serial.println();
